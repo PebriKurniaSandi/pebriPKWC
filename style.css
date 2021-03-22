@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: 'raleway';
+    font-size: 20px;
+    line-height: 1,8em;
+    color: rgb(22, 126, 218);
+}
+
+header{
+    padding: 2em;
+    text-align: center;
+    background-image: url('./bacground.jpg');
+}
+
+@media only screen and (max-width:600px) {
+    /*for tablets*/
+    .wrapper {
+        width: 100%;
+    }
+}
